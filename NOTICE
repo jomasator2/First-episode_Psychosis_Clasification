@@ -1,0 +1,77 @@
+NOTICE
+------
+
+This project is licensed under the Apache License, Version 2.0 (the "License");
+you may not use this project except in compliance with the License.
+You may obtain a copy of the License at:
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+
+Attributions
+------------
+
+This repository includes code adapted from PyRadiomics examples
+(http://radiomics.io).
+
+================================================================================
+FILE-SPECIFIC ATTRIBUTIONS
+================================================================================
+
+src/1_radiomics/calculate.py
+----------------------------
+    Original Author:
+    - Adolfo López Cerdán (adlpecer@gmail.com) (2021-11-12)
+        * Initial radiomics feature extraction implementation
+        * Based on PyRadiomics examples
+
+    Contributors and Adaptations:
+    - Hector Carceller (2022-06-04)
+        * Code adaptations and improvements
+    - Joaquim Montell (2023-05-22)
+        * Code adaptations and improvements
+    - Jesus Alejandro Alzate (2023-05-22)
+        * Code adaptations and improvements
+    - Elena Oliver-Garcia (2023-05-22)
+        * Code adaptations and enhancements
+    - Alejandro Mora-Rubio (2024-01-25)
+        * Code adaptations and enhancements
+    - Jose Manuel Saborit-Torres (josemanuel.saborit@fisabio.es) (2025-09-22)
+        * Code refactoring and integration
+
+src/3_classification/1_train_and_evaluate.py
+src/3_classification/2_model_differences.py
+src/3_classification/3_retrain_best_model_and_evaluate.py
+-------------------------------------------------------------
+    Original Author:
+    - Jose Valero
+        * Classification pipeline creator
+        * Machine learning models and evaluation framework
+
+    Contributors and Adaptations:
+    - Jose Manuel Saborit-Torres (josemanuel.saborit@fisabio.es) (2025-09-22)
+        * Major refactoring and pipeline integration
+        * Classification and explainability modules enhancements
+        * Code optimization and documentation
+
+================================================================================
+GENERAL PROJECT CONTRIBUTIONS
+================================================================================
+
+Project Structure and Integration:
+- Jose Manuel Saborit-Torres (josemanuel.saborit@fisabio.es) (2025-09-22)
+    * Complete workflow pipeline integration
+    * Project structure and organization
+    * Preprocessing notebooks (src/2_preprocess_data/)
+    * Results visualization framework (src/4_results_viewer/)
+    * Environment configuration files
+    * Shell scripts for local and HPC execution
+    * Complete project documentation (README.md, README_all.md)
+    * SLURM batch scripts
+    * All other new code and utilities
