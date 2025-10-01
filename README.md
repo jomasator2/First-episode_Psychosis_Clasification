@@ -478,11 +478,3 @@ See LICENSE file for details.
 For questions or issues, please open an issue on GitHub or contact the maintainers.
 
 ---
-
-## Acknowledgments
-
-This pipeline uses:
-- **PyRadiomics** for feature extraction
-- **scikit-learn** for machine learning
-- **SHAP** and **LIME** for explainability
-- **Jupyter** for interactive analysis
