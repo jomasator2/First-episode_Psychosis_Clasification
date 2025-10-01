@@ -1,0 +1,16 @@
+name: jupyter_venv
+channels:
+  - defaults
+dependencies:
+  - notebook
+  - pip
+  - python=3.11.9
+  - scikit-learn
+  - numpy
+  - seaborn
+  - jupyter
+  - jupyterlab
+  - ipykernel
+  - matplotlib
+  - pandas
+  - libiconv
