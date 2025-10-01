@@ -1,0 +1,15 @@
+name: pyclassification
+channels:
+  - defaults
+dependencies:
+  - seaborn
+  - scipy
+  - scikit-learn
+  - pandas
+  - numpy
+  - python=3.11
+  - matplotlib
+  - shap
+  - lime
+  - scikit-optimize
+  - statsmodels
