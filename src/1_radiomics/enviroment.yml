@@ -1,0 +1,12 @@
+name: radiomics
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.9
+  - pandas
+  - numpy
+  - simpleitk
+  - libiconv
+  - pip
+  - pip:
+      - pyradiomics

@@ -1,0 +1,23 @@
+
+setting:
+    binWidth: 25
+    correctMask: True
+    interpolator: 'sitkBSpline' # This is an enumerated value, here None is not allowed
+    normalize: True
+    resampledPixelSpacing: # This disables resampling, as it is interpreted as None, to enable it, specify spacing in x, y, z as [x, y , z]
+    weightingNorm: # If no value is specified, it is interpreted as None
+
+# Image types to use: "Original" for unfiltered image, for possible filters, see documentation.
+imageType:
+    Original: {} # for dictionaries / mappings, None values are not allowed, '{}' is interpreted as an empty dictionary
+    LoG:
+     sigma: [1.0, 3.0, 5.0]
+    Wavelet: {}
+
+featureClass:
+    firstorder:
+    glcm:
+    gldm:
+    glrlm: 
+    glszm:
+    shape:
