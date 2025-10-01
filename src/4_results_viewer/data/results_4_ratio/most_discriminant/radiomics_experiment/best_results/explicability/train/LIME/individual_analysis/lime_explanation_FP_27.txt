@@ -1,0 +1,17 @@
+=== LIME Explanation para FP (índice: 27) ===
+
+Clase real: 0.0
+Predicción del modelo: 1.0
+Probabilidades: [[0.07009641 0.92990359]]
+
+Importancia local de las features:
+  label50_wavelet-HHH_firstorder_10Percentile > 0.76: 0.2034
+  label50_wavelet-LHH_firstorder_10Percentile > 0.78: -0.1026
+  label50_wavelet-HHH_firstorder_InterquartileRange <= -0.73: -0.0858
+  label14_wavelet-LHL_firstorder_Kurtosis > 0.60: 0.0675
+  label1028_wavelet-LHL_firstorder_Skewness > 0.76: 0.0611
+  0.27 < label50_wavelet-HLH_glcm_SumSquares <= 0.56: -0.0510
+  label50_wavelet-LHH_firstorder_90Percentile <= -0.83: 0.0508
+  label2035_log-sigma-5-0-mm-3D_glcm_DifferenceEntropy > 0.55: 0.0488
+  label2002_wavelet-HHH_firstorder_TotalEnergy <= -0.76: 0.0443
+  label50_wavelet-LHH_firstorder_InterquartileRange <= -0.78: -0.0429

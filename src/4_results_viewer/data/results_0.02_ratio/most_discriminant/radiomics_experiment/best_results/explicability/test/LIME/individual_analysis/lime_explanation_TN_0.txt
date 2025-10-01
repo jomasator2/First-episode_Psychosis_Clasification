@@ -1,0 +1,17 @@
+=== LIME Explanation para TN (índice: 0) ===
+
+Clase real: 0.0
+Predicción del modelo: 0.0
+Probabilidades: [[0.96385418 0.03614582]]
+
+Importancia local de las features:
+  label1005_wavelet-HHH_glszm_ZonePercentage <= -0.47: -0.0501
+  label2017_log-sigma-3-0-mm-3D_glszm_LowGrayLevelZoneEmphasis <= -0.74: 0.0451
+  label1032_log-sigma-5-0-mm-3D_firstorder_Kurtosis > 0.36: 0.0425
+  label77_original_shape_Flatness > 1.05: -0.0418
+  label2017_log-sigma-3-0-mm-3D_glszm_SmallAreaHighGrayLevelEmphasis > 0.67: 0.0369
+  label2020_wavelet-LHL_firstorder_Maximum > 0.60: 0.0363
+  label1034_wavelet-HLL_glszm_SmallAreaHighGrayLevelEmphasis > 0.68: -0.0360
+  label8_wavelet-HHH_glszm_SmallAreaLowGrayLevelEmphasis > 0.62: -0.0347
+  label2033_log-sigma-1-0-mm-3D_firstorder_Skewness > 0.37: 0.0332
+  label1034_wavelet-HLL_glszm_SizeZoneNonUniformity > -0.04: -0.0325

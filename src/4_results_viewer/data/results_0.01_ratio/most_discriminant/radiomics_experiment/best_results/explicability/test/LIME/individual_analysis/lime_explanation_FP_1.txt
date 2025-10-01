@@ -1,0 +1,17 @@
+=== LIME Explanation para FP (índice: 1) ===
+
+Clase real: 0.0
+Predicción del modelo: 1.0
+Probabilidades: [[0.01813555 0.98186445]]
+
+Importancia local de las features:
+  label1005_wavelet-HHH_glszm_ZonePercentage > 0.93: 0.0256
+  label44_log-sigma-5-0-mm-3D_glszm_GrayLevelNonUniformity > 0.56: 0.0247
+  label2009_wavelet-LLH_glszm_SmallAreaEmphasis <= -0.49: 0.0201
+  label63_log-sigma-5-0-mm-3D_glszm_LargeAreaHighGrayLevelEmphasis > 0.22: 0.0193
+  label251_wavelet-HLH_gldm_SmallDependenceHighGrayLevelEmphasis > 0.46: 0.0193
+  label1032_wavelet-HLH_glszm_GrayLevelVariance <= -1.42: 0.0191
+  -0.58 < label1017_wavelet-LHL_glcm_Idmn <= 0.14: -0.0187
+  label2002_wavelet-LLH_gldm_LargeDependenceEmphasis <= -0.73: -0.0186
+  label253_wavelet-HHH_gldm_LargeDependenceHighGrayLevelEmphasis <= -0.80: 0.0185
+  label2007_log-sigma-3-0-mm-3D_gldm_SmallDependenceLowGrayLevelEmphasis <= -0.74: -0.0177

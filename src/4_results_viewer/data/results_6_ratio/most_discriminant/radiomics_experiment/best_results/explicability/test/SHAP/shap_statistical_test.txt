@@ -1,0 +1,65 @@
+=================================
+TEST DE MANN-WHITNEY U (SHAP por feature) con corrección 'Holm' para test
+Comparación: Clase 0 vs Clase 1
+alpha = 0.05
+Features totales: 52
+=================================
+
+Resultados por feature (p-value crudo y corregido):
+    label1035_log-sigma-3-0-mm-3D_firstorder_10Percentile: p-value crudo=1.1737e-02, p-value corregido=5.2819e-01 => sin diferencia significativa
+    label17_wavelet-HLL_glcm_DifferenceVariance: p-value crudo=4.9820e-02, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label17_wavelet-HLL_glcm_DifferenceEntropy: p-value crudo=5.4906e-02, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label17_wavelet-HLL_glcm_Imc1: p-value crudo=4.9820e-02, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label50_wavelet-HHH_firstorder_10Percentile: p-value crudo=9.5251e-02, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label41_wavelet-LLH_glcm_DifferenceEntropy: p-value crudo=8.9839e-02, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label1014_wavelet-LLH_glcm_SumAverage: p-value crudo=1.8069e-03, p-value corregido=8.8539e-02 => sin diferencia significativa
+    label1014_wavelet-LLH_glcm_JointAverage: p-value crudo=1.8069e-03, p-value corregido=8.8539e-02 => sin diferencia significativa
+    label2002_wavelet-HHH_firstorder_Energy: p-value crudo=2.3261e-01, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label2002_wavelet-HHH_firstorder_TotalEnergy: p-value crudo=2.3261e-01, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label14_wavelet-LHL_firstorder_Kurtosis: p-value crudo=6.8471e-02, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label41_wavelet-LLH_glcm_DifferenceVariance: p-value crudo=1.0092e-01, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label50_wavelet-HHH_firstorder_90Percentile: p-value crudo=2.5044e-02, p-value corregido=9.5167e-01 => sin diferencia significativa
+    label50_wavelet-LHH_firstorder_90Percentile: p-value crudo=1.2211e-02, p-value corregido=5.2819e-01 => sin diferencia significativa
+    label11_wavelet-LHH_firstorder_InterquartileRange: p-value crudo=5.4906e-02, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label50_wavelet-HHH_firstorder_RobustMeanAbsoluteDeviation: p-value crudo=6.8471e-02, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label1014_wavelet-LLH_glcm_ClusterShade: p-value crudo=1.6429e-03, p-value corregido=8.3788e-02 => sin diferencia significativa
+    label11_wavelet-LHH_firstorder_RobustMeanAbsoluteDeviation: p-value crudo=6.0417e-02, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label50_wavelet-LHH_firstorder_10Percentile: p-value crudo=2.0859e-02, p-value corregido=8.1350e-01 => sin diferencia significativa
+    label1028_wavelet-LHL_firstorder_Skewness: p-value crudo=1.6429e-03, p-value corregido=8.3788e-02 => sin diferencia significativa
+    label50_wavelet-HLH_glcm_SumSquares: p-value crudo=1.8069e-03, p-value corregido=8.8539e-02 => sin diferencia significativa
+    label2_wavelet-LLH_glcm_DifferenceEntropy: p-value crudo=1.0092e-01, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label50_wavelet-LHH_firstorder_InterquartileRange: p-value crudo=4.0828e-02, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label50_wavelet-LHH_firstorder_RobustMeanAbsoluteDeviation: p-value crudo=3.6874e-02, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label41_wavelet-LLH_gldm_LargeDependenceLowGrayLevelEmphasis: p-value crudo=4.6654e-02, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label2_wavelet-LLH_glcm_DifferenceVariance: p-value crudo=1.0386e-01, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label50_wavelet-HHH_firstorder_InterquartileRange: p-value crudo=1.0092e-01, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label11_wavelet-HHH_firstorder_RobustMeanAbsoluteDeviation: p-value crudo=7.0617e-02, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label11_wavelet-LHH_firstorder_90Percentile: p-value crudo=7.9758e-02, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label2028_wavelet-HLH_glcm_DifferenceEntropy: p-value crudo=2.8898e-02, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label50_wavelet-HHH_firstorder_MeanAbsoluteDeviation: p-value crudo=4.3659e-02, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label2028_wavelet-HLH_glcm_Imc1: p-value crudo=2.8898e-02, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label2028_wavelet-HLH_glcm_DifferenceVariance: p-value crudo=2.5044e-02, p-value corregido=9.5167e-01 => sin diferencia significativa
+    label17_wavelet-HLL_glcm_JointEntropy: p-value crudo=6.0417e-02, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label11_wavelet-HHH_firstorder_InterquartileRange: p-value crudo=9.8053e-02, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label2028_wavelet-HLH_glcm_JointEntropy: p-value crudo=3.9472e-02, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label1012_wavelet-LLL_firstorder_Kurtosis: p-value crudo=7.5074e-02, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label41_wavelet-LLH_glrlm_LongRunLowGrayLevelEmphasis: p-value crudo=6.8471e-02, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label2010_wavelet-LLH_glrlm_LongRunLowGrayLevelEmphasis: p-value crudo=2.8764e-03, p-value corregido=1.3231e-01 => sin diferencia significativa
+    label2028_wavelet-HLH_glcm_JointEnergy: p-value crudo=4.0828e-02, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label1035_log-sigma-3-0-mm-3D_glcm_MaximumProbability: p-value crudo=2.0099e-02, p-value corregido=8.0397e-01 => sin diferencia significativa
+    label17_wavelet-HLL_glcm_JointEnergy: p-value crudo=5.3164e-02, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label2010_wavelet-HLH_firstorder_InterquartileRange: p-value crudo=1.8652e-02, p-value corregido=7.6474e-01 => sin diferencia significativa
+    label17_wavelet-LLH_gldm_DependenceEntropy: p-value crudo=7.8624e-04, p-value corregido=4.0884e-02 => DIFERENCIA SIGNIFICATIVA
+    label1035_log-sigma-3-0-mm-3D_glcm_Autocorrelation: p-value crudo=3.2113e-02, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label11_wavelet-LHH_firstorder_10Percentile: p-value crudo=8.4677e-02, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label1010_wavelet-HHH_glcm_JointEnergy: p-value crudo=2.7927e-01, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label2014_log-sigma-1-0-mm-3D_gldm_LowGrayLevelEmphasis: p-value crudo=1.1737e-02, p-value corregido=5.2819e-01 => sin diferencia significativa
+    label2014_log-sigma-1-0-mm-3D_gldm_HighGrayLevelEmphasis: p-value crudo=1.1737e-02, p-value corregido=5.2819e-01 => sin diferencia significativa
+    label1035_log-sigma-3-0-mm-3D_glcm_SumSquares: p-value crudo=3.8154e-02, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label1010_wavelet-HHH_glcm_JointEntropy: p-value crudo=2.6108e-01, p-value corregido=1.0000e+00 => sin diferencia significativa
+    label2035_log-sigma-5-0-mm-3D_glcm_DifferenceVariance: p-value crudo=1.6909e-01, p-value corregido=1.0000e+00 => sin diferencia significativa
+
+ Total comparaciones con diferencia significativa: 1. Comparaciones:
+    label17_wavelet-LLH_gldm_DependenceEntropy: p-value crudo=7.8624e-04, p-value corregido=4.0884e-02 => DIFERENCIA SIGNIFICATIVA
+
+

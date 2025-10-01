@@ -1,0 +1,70 @@
+=== Fine-tuning del modelo LogisticRegression ===
+
+Mejores parámetros (según roc_auc): OrderedDict([('logisticregression__C', 2.675528964234605), ('logisticregression__l1_ratio', 0.10043043825862777), ('logisticregression__penalty', 'l1')])
+
+=== Resultados CV (BayesSearch) ===
+  CV roc_auc: 0.863 +/- 0.050
+  CV f1: 0.740 +/- 0.064
+  CV balanced_accuracy: 0.769 +/- 0.062
+
+=== Evaluación en Test (NO calibrado) ===
+  Figura de Confusion Matrix: /clinicfs/userhomes/jmsaborit/radiomic_Schizo_eval/results_Final_Bueno_De_verdad_de_la_buena_Pro_Max/results_0.03_ratio/most_discriminant/radiomics_experiment/best_results/confusion_matrix.png
+  AUC: 0.873
+  MCC: 0.573
+  Kappa: 0.571
+  F1: 0.764
+  Accuracy: 0.787
+  Sensitivity: 0.808
+  Specificity: 0.771
+  PPV: 0.724
+  NPV: 0.844
+  Balanced Accuracy: 0.790
+
+=== Classification Report ===
+              precision    recall  f1-score   support
+
+         0.0       0.84      0.77      0.81        35
+         1.0       0.72      0.81      0.76        26
+
+    accuracy                           0.79        61
+   macro avg       0.78      0.79      0.78        61
+weighted avg       0.79      0.79      0.79        61
+
+
+=== Ajuste de Umbral (Resultados con el mejor threshold) ===
+Resultados para cada threshold:
+Threshold: 0.10 - F1: 0.675
+Threshold: 0.20 - F1: 0.746
+Threshold: 0.30 - F1: 0.746
+Threshold: 0.40 - F1: 0.764
+Threshold: 0.50 - F1: 0.735
+Threshold: 0.60 - F1: 0.696
+Threshold: 0.70 - F1: 0.550
+Threshold: 0.80 - F1: 0.375
+Threshold: 0.90 - F1: 0.143
+
+Mejor threshold seleccionado (según F1): 0.40
+
+Classification Report (con threshold 0.40):
+              precision    recall  f1-score   support
+
+         0.0       0.84      0.77      0.81        35
+         1.0       0.72      0.81      0.76        26
+
+    accuracy                           0.79        61
+   macro avg       0.78      0.79      0.78        61
+weighted avg       0.79      0.79      0.79        61
+
+AUC: 0.869
+MCC: 0.573
+Kappa: 0.571
+F1: 0.764
+Accuracy: 0.787
+Sensitivity: 0.808
+Specificity: 0.771
+PPV: 0.724
+NPV: 0.844
+Balanced Accuracy: 0.790
+
+Confusion Matrix (Calibrado con threshold=0.40) fig: /clinicfs/userhomes/jmsaborit/radiomic_Schizo_eval/results_Final_Bueno_De_verdad_de_la_buena_Pro_Max/results_0.03_ratio/most_discriminant/radiomics_experiment/best_results/calibration/confusion_matrix_best_threshold.png
+

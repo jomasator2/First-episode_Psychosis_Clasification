@@ -1,0 +1,17 @@
+=== LIME Explanation para FN (índice: 19) ===
+
+Clase real: 1.0
+Predicción del modelo: 0.0
+Probabilidades: [[0.58100066 0.41899934]]
+
+Importancia local de las features:
+  label2020_wavelet-LHL_firstorder_Kurtosis > 0.48: 0.0526
+  label2007_wavelet-HLL_glszm_GrayLevelNonUniformity <= -0.99: 0.0491
+  label2019_log-sigma-1-0-mm-3D_gldm_DependenceNonUniformityNormalized > 0.50: -0.0481
+  label77_original_shape_Elongation <= -0.60: 0.0469
+  label2020_wavelet-LHL_firstorder_Maximum > 0.60: 0.0439
+  label1034_wavelet-HLL_glszm_SmallAreaHighGrayLevelEmphasis > 0.68: -0.0437
+  label46_log-sigma-5-0-mm-3D_glszm_SizeZoneNonUniformity <= -0.91: 0.0397
+  label2009_wavelet-LLH_glszm_ZoneEntropy > 0.65: 0.0373
+  label1034_wavelet-HLL_glszm_SizeZoneNonUniformity > -0.04: -0.0324
+  label2033_log-sigma-1-0-mm-3D_firstorder_Skewness > 0.37: 0.0317

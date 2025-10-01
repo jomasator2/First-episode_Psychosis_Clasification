@@ -1,0 +1,17 @@
+=== LIME Explanation para FN (índice: 4) ===
+
+Clase real: 1.0
+Predicción del modelo: 0.0
+Probabilidades: [[9.99965138e-01 3.48617594e-05]]
+
+Importancia local de las features:
+  label1028_wavelet-LHL_firstorder_Skewness > 1.15: 0.1392
+  label2011_wavelet-HLH_gldm_SmallDependenceHighGrayLevelEmphasis > 0.11: 0.1299
+  label2011_wavelet-HHL_gldm_SmallDependenceEmphasis > 0.45: 0.1176
+  label50_wavelet-HHH_firstorder_10Percentile <= -0.39: -0.1005
+  label2011_wavelet-HLH_gldm_SmallDependenceEmphasis > 0.25: 0.0985
+  label14_wavelet-LHL_firstorder_Kurtosis <= -0.62: -0.0892
+  label2028_wavelet-HLH_glcm_Imc1 > 0.58: -0.0784
+  -0.50 < label1012_wavelet-LLL_firstorder_Kurtosis <= -0.07: 0.0770
+  -0.22 < label50_wavelet-HLH_glcm_ClusterShade <= 0.72: -0.0724
+  label2028_wavelet-HLH_glcm_DifferenceEntropy > 0.58: -0.0661

@@ -1,0 +1,69 @@
+Class	Precision	Recall	F1	Support	Experiment	Experiment_Label	Experiment_Pos	Section	Best_Threshold
+0.0	0.85	0.83	0.84	35	results_0.009_ratio	0.009	1	Best_Threshold	0.5
+1.0	0.78	0.81	0.79	26	results_0.009_ratio	0.009	1	Best_Threshold	0.5
+0.0	0.87	0.77	0.82	35	results_0.009_ratio	0.009	1	Test_NotCalibrated	
+1.0	0.73	0.85	0.79	26	results_0.009_ratio	0.009	1	Test_NotCalibrated	
+0.0	0.86	0.86	0.86	35	results_0.01_ratio	0.01	2	Best_Threshold	0.5
+1.0	0.81	0.81	0.81	26	results_0.01_ratio	0.01	2	Best_Threshold	0.5
+0.0	0.84	0.77	0.81	35	results_0.01_ratio	0.01	2	Test_NotCalibrated	
+1.0	0.72	0.81	0.76	26	results_0.01_ratio	0.01	2	Test_NotCalibrated	
+0.0	0.86	0.89	0.87	35	results_0.02_ratio	0.02	3	Best_Threshold	0.5
+1.0	0.84	0.81	0.82	26	results_0.02_ratio	0.02	3	Best_Threshold	0.5
+0.0	0.85	0.83	0.84	35	results_0.02_ratio	0.02	3	Test_NotCalibrated	
+1.0	0.78	0.81	0.79	26	results_0.02_ratio	0.02	3	Test_NotCalibrated	
+0.0	0.84	0.77	0.81	35	results_0.03_ratio	0.03	4	Best_Threshold	0.4
+1.0	0.72	0.81	0.76	26	results_0.03_ratio	0.03	4	Best_Threshold	0.4
+0.0	0.84	0.77	0.81	35	results_0.03_ratio	0.03	4	Test_NotCalibrated	
+1.0	0.72	0.81	0.76	26	results_0.03_ratio	0.03	4	Test_NotCalibrated	
+0.0	1.0	0.57	0.73	35	results_0.04_ratio	0.04	5	Best_Threshold	0.2
+1.0	0.63	1.0	0.78	26	results_0.04_ratio	0.04	5	Best_Threshold	0.2
+0.0	0.81	0.83	0.82	35	results_0.04_ratio	0.04	5	Test_NotCalibrated	
+1.0	0.76	0.73	0.75	26	results_0.04_ratio	0.04	5	Test_NotCalibrated	
+0.0	0.93	0.68	0.78	37	results_0.05_ratio	0.05	6	Best_Threshold	0.3
+1.0	0.67	0.92	0.77	26	results_0.05_ratio	0.05	6	Best_Threshold	0.3
+0.0	0.79	0.84	0.82	37	results_0.05_ratio	0.05	6	Test_NotCalibrated	
+1.0	0.75	0.69	0.72	26	results_0.05_ratio	0.05	6	Test_NotCalibrated	
+0.0	0.92	0.65	0.76	37	results_0.07_ratio	0.07	7	Best_Threshold	0.3
+1.0	0.65	0.92	0.76	26	results_0.07_ratio	0.07	7	Best_Threshold	0.3
+0.0	0.77	0.81	0.79	37	results_0.07_ratio	0.07	7	Test_NotCalibrated	
+1.0	0.71	0.65	0.68	26	results_0.07_ratio	0.07	7	Test_NotCalibrated	
+0.0	0.93	0.68	0.78	37	results_0.08_ratio	0.08	8	Best_Threshold	0.3
+1.0	0.67	0.92	0.77	26	results_0.08_ratio	0.08	8	Best_Threshold	0.3
+0.0	0.72	0.78	0.75	37	results_0.08_ratio	0.08	8	Test_NotCalibrated	
+1.0	0.65	0.58	0.61	26	results_0.08_ratio	0.08	8	Test_NotCalibrated	
+0.0	0.83	0.68	0.75	37	results_0.6_ratio	0.6	9	Best_Threshold	0.3
+1.0	0.64	0.81	0.71	26	results_0.6_ratio	0.6	9	Best_Threshold	0.3
+0.0	0.74	0.78	0.76	37	results_0.6_ratio	0.6	9	Test_NotCalibrated	
+1.0	0.67	0.62	0.64	26	results_0.6_ratio	0.6	9	Test_NotCalibrated	
+0.0	0.81	0.59	0.69	37	results_0.9_ratio	0.9	10	Best_Threshold	0.2
+1.0	0.58	0.81	0.68	26	results_0.9_ratio	0.9	10	Best_Threshold	0.2
+0.0	0.74	0.78	0.76	37	results_0.9_ratio	0.9	10	Test_NotCalibrated	
+1.0	0.67	0.62	0.64	26	results_0.9_ratio	0.9	10	Test_NotCalibrated	
+0.0	0.84	0.57	0.68	37	results_1_ratio	1	11	Best_Threshold	0.2
+1.0	0.58	0.85	0.69	26	results_1_ratio	1	11	Best_Threshold	0.2
+0.0	0.7	0.76	0.73	37	results_1_ratio	1	11	Test_NotCalibrated	
+1.0	0.61	0.54	0.57	26	results_1_ratio	1	11	Test_NotCalibrated	
+0.0	0.84	0.57	0.68	37	results_2_ratio	2	12	Best_Threshold	0.2
+1.0	0.58	0.85	0.69	26	results_2_ratio	2	12	Best_Threshold	0.2
+0.0	0.7	0.81	0.75	37	results_2_ratio	2	12	Test_NotCalibrated	
+1.0	0.65	0.5	0.57	26	results_2_ratio	2	12	Test_NotCalibrated	
+0.0	0.79	0.51	0.62	37	results_3_ratio	3	13	Best_Threshold	0.2
+1.0	0.54	0.81	0.65	26	results_3_ratio	3	13	Best_Threshold	0.2
+0.0	0.73	0.73	0.73	37	results_3_ratio	3	13	Test_NotCalibrated	
+1.0	0.62	0.62	0.62	26	results_3_ratio	3	13	Test_NotCalibrated	
+0.0	0.79	0.59	0.68	37	results_4_ratio	4	14	Best_Threshold	0.3
+1.0	0.57	0.77	0.66	26	results_4_ratio	4	14	Best_Threshold	0.3
+0.0	0.73	0.73	0.73	37	results_4_ratio	4	14	Test_NotCalibrated	
+1.0	0.62	0.62	0.62	26	results_4_ratio	4	14	Test_NotCalibrated	
+0.0	0.74	0.84	0.78	37	results_5_ratio	5	15	Best_Threshold	0.6
+1.0	0.71	0.58	0.64	26	results_5_ratio	5	15	Best_Threshold	0.6
+0.0	0.71	0.65	0.68	37	results_5_ratio	5	15	Test_NotCalibrated	
+1.0	0.55	0.62	0.58	26	results_5_ratio	5	15	Test_NotCalibrated	
+0.0	0.84	0.43	0.57	37	results_6_ratio	6	16	Best_Threshold	0.2
+1.0	0.52	0.88	0.66	26	results_6_ratio	6	16	Best_Threshold	0.2
+0.0	0.72	0.7	0.71	37	results_6_ratio	6	16	Test_NotCalibrated	
+1.0	0.59	0.62	0.6	26	results_6_ratio	6	16	Test_NotCalibrated	
+0.0	0.77	0.62	0.69	37	results_7_ratio	7	17	Best_Threshold	0.3
+1.0	0.58	0.73	0.64	26	results_7_ratio	7	17	Best_Threshold	0.3
+0.0	0.74	0.7	0.72	37	results_7_ratio	7	17	Test_NotCalibrated	
+1.0	0.61	0.65	0.63	26	results_7_ratio	7	17	Test_NotCalibrated	

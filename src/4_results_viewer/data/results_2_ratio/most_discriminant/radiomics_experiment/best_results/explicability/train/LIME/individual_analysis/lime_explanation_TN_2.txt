@@ -1,0 +1,17 @@
+=== LIME Explanation para TN (índice: 2) ===
+
+Clase real: 0.0
+Predicción del modelo: 0.0
+Probabilidades: [[9.99999766e-01 2.34175946e-07]]
+
+Importancia local de las features:
+  label50_wavelet-HLH_glcm_ClusterShade > 0.63: 0.1562
+  label2011_wavelet-HLH_gldm_SmallDependenceHighGrayLevelEmphasis <= -0.66: -0.1441
+  label2011_wavelet-HHL_gldm_SmallDependenceEmphasis <= -0.70: -0.1244
+  label50_wavelet-HHH_firstorder_10Percentile <= -0.61: -0.1199
+  -0.22 < label14_wavelet-LHL_firstorder_Kurtosis <= 0.60: 0.1136
+  -0.16 < label1012_wavelet-LLL_firstorder_Kurtosis <= 0.37: -0.0854
+  label2028_wavelet-HLH_glcm_Imc1 > 0.58: -0.0849
+  label1028_wavelet-LHL_firstorder_Skewness <= -0.71: -0.0767
+  label2011_wavelet-HLH_gldm_SmallDependenceEmphasis <= -0.60: -0.0722
+  label2_wavelet-LLH_glrlm_LongRunLowGrayLevelEmphasis <= -0.73: 0.0709

@@ -1,0 +1,17 @@
+=== LIME Explanation para TP (índice: 0) ===
+
+Clase real: 1.0
+Predicción del modelo: 1.0
+Probabilidades: [[2.49456793e-07 9.99999751e-01]]
+
+Importancia local de las features:
+  label50_wavelet-HHH_firstorder_10Percentile > 0.76: 0.1600
+  -0.52 < label1012_wavelet-LLL_firstorder_Kurtosis <= -0.16: 0.1186
+  -0.22 < label14_wavelet-LHL_firstorder_Kurtosis <= 0.60: 0.1026
+  label17_wavelet-HLL_glcm_DifferenceEntropy <= -0.58: 0.0942
+  label17_wavelet-HLL_glcm_JointEntropy <= -0.58: 0.0899
+  label1028_wavelet-LHL_firstorder_Skewness <= -0.71: -0.0793
+  label2002_wavelet-HHH_firstorder_Energy <= -0.76: 0.0784
+  label1018_wavelet-LHL_glrlm_LongRunHighGrayLevelEmphasis > 0.63: -0.0784
+  label50_wavelet-HHH_firstorder_MeanAbsoluteDeviation <= -0.73: 0.0735
+  label8_log-sigma-1-0-mm-3D_glrlm_RunLengthNonUniformityNormalized <= -0.78: 0.0733

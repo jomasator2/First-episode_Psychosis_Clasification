@@ -1,0 +1,17 @@
+=== LIME Explanation para TP (índice: 8) ===
+
+Clase real: 1.0
+Predicción del modelo: 1.0
+Probabilidades: [[0.2511433 0.7488567]]
+
+Importancia local de las features:
+  label2007_wavelet-HLL_glszm_GrayLevelNonUniformity > 1.04: -0.0635
+  label2017_log-sigma-3-0-mm-3D_glszm_LowGrayLevelZoneEmphasis <= -0.74: 0.0582
+  label2017_log-sigma-3-0-mm-3D_glszm_SmallAreaHighGrayLevelEmphasis > 0.67: 0.0487
+  label1018_wavelet-LLH_glszm_ZonePercentage <= -0.85: -0.0427
+  label2030_wavelet-LHH_glcm_MCC > 0.57: 0.0400
+  label2020_wavelet-LHL_firstorder_Maximum <= -0.69: -0.0395
+  label2027_wavelet-LHL_glszm_SmallAreaHighGrayLevelEmphasis > 0.66: -0.0395
+  label1005_wavelet-HHH_glszm_ZonePercentage <= -0.47: -0.0381
+  label1022_wavelet-LLH_glszm_GrayLevelNonUniformityNormalized <= -0.58: 0.0347
+  label1032_wavelet-HLL_glszm_LowGrayLevelZoneEmphasis <= -0.77: 0.0333

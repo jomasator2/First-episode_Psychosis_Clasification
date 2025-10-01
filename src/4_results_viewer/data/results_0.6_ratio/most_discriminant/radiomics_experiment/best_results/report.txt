@@ -1,0 +1,70 @@
+=== Fine-tuning del modelo GradientBoosting ===
+
+Mejores parámetros (según roc_auc): OrderedDict([('gradientboostingclassifier__learning_rate', 0.021916734625354418), ('gradientboostingclassifier__max_depth', 3), ('gradientboostingclassifier__max_features', None), ('gradientboostingclassifier__n_estimators', 1024), ('gradientboostingclassifier__subsample', 0.5)])
+
+=== Resultados CV (BayesSearch) ===
+  CV roc_auc: 0.870 +/- 0.043
+  CV f1: 0.731 +/- 0.055
+  CV balanced_accuracy: 0.771 +/- 0.043
+
+=== Evaluación en Test (NO calibrado) ===
+  Figura de Confusion Matrix: /clinicfs/userhomes/jmsaborit/radiomic_Schizo_eval/results_all/results_0.6_ratio/most_discriminant/radiomics_experiment/best_results/confusion_matrix.png
+  AUC: 0.805
+  MCC: 0.405
+  Kappa: 0.404
+  F1: 0.640
+  Accuracy: 0.714
+  Sensitivity: 0.615
+  Specificity: 0.784
+  PPV: 0.667
+  NPV: 0.744
+  Balanced Accuracy: 0.700
+
+=== Classification Report ===
+              precision    recall  f1-score   support
+
+         0.0       0.74      0.78      0.76        37
+         1.0       0.67      0.62      0.64        26
+
+    accuracy                           0.71        63
+   macro avg       0.71      0.70      0.70        63
+weighted avg       0.71      0.71      0.71        63
+
+
+=== Ajuste de Umbral (Resultados con el mejor threshold) ===
+Resultados para cada threshold:
+Threshold: 0.10 - F1: 0.667
+Threshold: 0.20 - F1: 0.688
+Threshold: 0.30 - F1: 0.712
+Threshold: 0.40 - F1: 0.642
+Threshold: 0.50 - F1: 0.627
+Threshold: 0.60 - F1: 0.638
+Threshold: 0.70 - F1: 0.512
+Threshold: 0.80 - F1: 0.486
+Threshold: 0.90 - F1: 0.323
+
+Mejor threshold seleccionado (según F1): 0.30
+
+Classification Report (con threshold 0.30):
+              precision    recall  f1-score   support
+
+         0.0       0.83      0.68      0.75        37
+         1.0       0.64      0.81      0.71        26
+
+    accuracy                           0.73        63
+   macro avg       0.73      0.74      0.73        63
+weighted avg       0.75      0.73      0.73        63
+
+AUC: 0.799
+MCC: 0.476
+Kappa: 0.465
+F1: 0.712
+Accuracy: 0.730
+Sensitivity: 0.808
+Specificity: 0.676
+PPV: 0.636
+NPV: 0.833
+Balanced Accuracy: 0.742
+
+Confusion Matrix (Calibrado con threshold=0.30) fig: /clinicfs/userhomes/jmsaborit/radiomic_Schizo_eval/results_all/results_0.6_ratio/most_discriminant/radiomics_experiment/best_results/calibration/confusion_matrix_best_threshold.png
+
