@@ -136,7 +136,7 @@ jupyter lab preprocess.ipynb
 ### 2.3 Preprocessing Steps
 
 The notebook performs:
-1. **Data Loading**: Load radiomic features from Step 1
+1. **Data Loading**: Load radiomic features from Step 1, or use the original dataset from [Zenodo](https://zenodo.org/records/17285665) (automatically downloaded by `preprocess.ipynb`)
 2. **Quality Control**: Remove features with missing values or low variance
 3. **Feature Selection**: Select relevant features based on statistical tests
 4. **Normalization**: Standardize or normalize feature values
